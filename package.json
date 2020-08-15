@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "react-monorepo",
+  "workspaces": [
+    "src/applications/*"
+  ],
+  "scripts": {
+    "start:client1": "yarn workspace client_1 start",
+    "start:client2": "yarn workspace client_2 start"
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
