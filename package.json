@@ -5,16 +5,9 @@
     "packages": [
       "src/applications/*",
       "src/components/*"
-    ],
-    "nohoist": [
-      "**/eslint",
-      "**/eslint-plugin-react"
     ]
   },
-  "scripts": {
-    "start:client1": "yarn workspace @applications/client1 start",
-    "start:client2": "yarn workspace @applications/client2 start"
-  },
+  "scripts": {},
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -28,9 +21,12 @@
     "react-scripts": "^3.4.3"
   },
   "devDependencies": {
+    "eslint": "^7.7.0",
     "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.0.8"
   }
 }
